@@ -1,18 +1,1 @@
-class MyNumbers:
-    def __iter__(self):
-        self.a = 1
-        return self
-
-    def __next__(self):
-        if self.a <= 20:
-            x = self.a
-            self.a += 1
-            return x
-        else:
-            raise StopIteration
-
-myclass = MyNumbers()
-myiter = iter(myclass)
-
-for i in myiter:
-    print(i)
+通用订阅链接 https://ghelper.me/rss/2c6cf91dc6528448797c019c9f115c17
